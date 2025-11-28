@@ -1,0 +1,2 @@
+# JosephCalculator
+CALCULATIONS OF NUMBERS 
