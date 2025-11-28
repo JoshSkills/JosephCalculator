@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR ADVANCED...</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="big">
+
+        <p id="display"></p><br><br>
+
+
+         <div class="row-one">
+             <button onclick="clearAll()" style="font-weight: bold;" class="clear">AC</button>
+             <button onclick="del()" class="top-btn" style="font-weight: bold;">DEL</button>
+             <button onclick="a('%')" class="top-btn" style="font-weight: bold;">%</button>
+             <button onclick="a('/')" class="solving">÷</button>
+         </div><br>
+
+
+         <div class="row-two">
+             <button onclick="a('7')" class="small">7</button>
+             <button onclick="a('8')" class="small">8</button>
+             <button onclick="a('9')" class="small">9</button>
+             <button onclick="a('*')" class="solving">x</button>
+         </div><br>
+
+
+         <div class="row-three">
+             <button onclick="a('4')" class="small">4</button>
+             <button onclick="a('5')" class="small">5</button>
+             <button onclick="a('6')" class="small">6</button>
+             <button onclick="a('-')" class="solving">-</button>
+         </div><br>
+
+
+         <div class="row-four">
+             <button onclick="a('1')" class="small">1</button>
+             <button onclick="a('2')" class="small">2</button>
+             <button onclick="a('3')" class="small">3</button>
+             <button onclick="a('+')" class="solving">+</button>
+         </div><br>
+
+
+         <div class="row-five">
+             <button onclick="a('0')" class="small">0</button>
+             <button onclick="a('.')" class="small">.</button>
+             <button onclick="a('=')" class="solving-equal">=</button>
+         </div>
+
+    </div>
+    
+
+        <button class="theme-toggle" onclick="toggleTheme()"><p style="font-size: 30px;" style="color: lightseagreen;">&leftrightarrow;</p></button>
+</body>
+
+<script src="script.js"></script>
+
+</html>
